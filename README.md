@@ -5,4 +5,4 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Quick change update
 
-- ### Added to detect an ansible-playbook yml file put # ansbile_file at the top it not related to ansible but is a necessary step to activate the autocmd function in ansible vim script to start the ansible LSP locate in ftdetect file
+- ### Added to detect an ansible-playbook yml file put (# ansible_file) at the top it not related to ansible but is a necessary step to activate the autocmd function in ansible vim script to start the ansible LSP locate in ftdetect file
