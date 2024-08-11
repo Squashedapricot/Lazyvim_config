@@ -1,9 +1,7 @@
-# 💤 MyLazyVim Config (Adwaita)
+# 💤 MyLazyVim Config (Gruvbox)
 
 
 - ### Installation
-
-```
 
 
 - #### HTTPS
@@ -20,6 +18,7 @@ git clone git@github.com:Squashedapricot/Lazyvim_config.git
 mv $(pwd)/Lazyvim_config $HOME/.config/nvim
 cd $HOME/.config/nvim
 nvim
+```
 
 - ### About
 - #### This config is divide primarily in 2 branches based on theme choose that fits ye best
