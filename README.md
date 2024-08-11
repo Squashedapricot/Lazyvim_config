@@ -7,6 +7,7 @@
 ```
 git clone git@github.com:Squashedapricot/Lazyvim_config.git
 mv $(pwd)/Lazyvim_config $HOME/.config/nvim
+git checkout gruvbox
 nvim
 ```
 
@@ -15,6 +16,7 @@ nvim
 ```
 git clone https://github.com/Squashedapricot/Lazyvim_config.git
 mv $(pwd)/Lazyvim_config $HOME/.config/nvim
+git checkout gruvbox
 nvim
 ```
 
