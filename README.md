@@ -6,7 +6,7 @@
 - #### SSH
 ```
 git clone git@github.com:Squashedapricot/Lazyvim_config.git
-mv $(pwd)/Lazyvim_config $HOME/config.nvim
+mv $(pwd)/Lazyvim_config $HOME/.config/nvim
 nvim
 ```
 
@@ -14,7 +14,7 @@ nvim
 - #### HTTPS
 ```
 git clone https://github.com/Squashedapricot/Lazyvim_config.git
-mv $(pwd)/Lazyvim_config $HOME/config/nvim
+mv $(pwd)/Lazyvim_config $HOME/.config/nvim
 nvim
 ```
 
