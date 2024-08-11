@@ -3,16 +3,6 @@
 
 - ### Installation
 
-- #### SSH
-```
-git clone git@github.com:Squashedapricot/Lazyvim_config.git
-mv $(pwd)/Lazyvim_config $HOME/.config/nvim
-cd $HOME/.config/nvim
-git checkout gruvbox
-nvim
-```
-
-
 - #### HTTPS
 ```
 git clone https://github.com/Squashedapricot/Lazyvim_config.git
@@ -22,6 +12,14 @@ git checkout gruvbox
 nvim
 ```
 
+- #### SSH
+```
+git clone git@github.com:Squashedapricot/Lazyvim_config.git
+mv $(pwd)/Lazyvim_config $HOME/.config/nvim
+cd $HOME/.config/nvim
+git checkout gruvbox
+nvim
+```
 
 - ### About
 - #### This config is divide primarily in 2 branches based on theme choose that fits ye best
