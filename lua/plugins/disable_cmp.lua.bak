@@ -1,0 +1,29 @@
+--return {
+--  cmp.setup({ {
+--    completion = {
+--      keyword_length = 0,
+--      autocomplete = false,
+--    },
+--  } }),
+--}
+-- return {
+--   "hrsh7th/nvim-cmp",
+--   opts = {
+--     completion = {
+--       keyword_length = 0,
+--       autocomplete = false,
+--     },
+--   },
+-- }
+
+return {
+  {
+    "saghen/blink.cmp",
+    opts = {
+      -- When true, will show the completion window after typing a character that matches the `keyword.regex`
+      show_on_keyword = false,
+      -- When true, will show the completion window after typing a trigger character
+      show_on_trigger_character = false,
+    },
+  },
+}
