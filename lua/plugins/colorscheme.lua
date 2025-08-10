@@ -1,12 +1,15 @@
 return {
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  { "scottmckendry/cyberdream.nvim", opts = {
+    variant = "dark",
+    transparent = true,
+  } },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "cyberdream",
     },
   },
 }
